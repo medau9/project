@@ -1,5 +1,5 @@
-from math import pi
-radian = float(input('Your radian:'))
-degree = radian * (180/pi)
+from math import pi #Der wert "pi" wird aus importiert
+radian = float(input('Your radian:')) #es wird nach einer eingabe gefragt, die für die weitere rechnung gebraucht wird
+degree = radian * (180/pi) #rechnung von Bogenmaß in Gradmaß
 
-print(degree)
+print(degree) #Das Ergebnis wird ausgegeben
